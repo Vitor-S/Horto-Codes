@@ -34,7 +34,7 @@ export class Card extends HTMLElement{
         style.textContent = `
             .card-container{
                 display: flex;
-                padding: 1.5rem 0;
+
                 flex-direction: column;
                 align-items: center;
                 border-radius: 3%;
@@ -63,7 +63,7 @@ export class Card extends HTMLElement{
 
     mappingClick(){
         this.addEventListener('click', e => {
-            console.log('click')
+            document.querySelector('.popup-wrapper').style = 'display: flex;'
         })
     }
 }

@@ -12,12 +12,92 @@
     justify-content: center;
 }
 
+body{
+    display: flex;
+}
+
+.half-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 100vh;
+}
+
 .section-title{
     text-align: center;
 }
 
-.section-title::before{
-    content: "";
+.popup-wrapper{
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+
+    background-color: rgba(20, 20, 20, 0.9);
+}
+
+.popup-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+
+    width: 52%;
+    height: 40%;
+    background-color: #FFF;
+}
+
+.popup-image{
     width: 200px;
-    border-bottom: 2px solid #000;
+    border-radius: 50%;
+}
+
+.popup-name{
+    text-align: center;
+}
+
+.popup-info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    font-family: Fira Code;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.popup-bio{
+    max-width: 65%;
+}
+
+.social-media-container{
+    display: flex;
+    width: 80%;
+    height: 50px;
+    justify-content: center;
+}
+
+#github-icon{
+    transform: translateY(-13%);
+}
+
+.animated-button{
+    width: 10px;
+    height: 10px;
+}
+
+.animated-button-container{
+    transition: 0.2s ease-out;
+}
+
+.animated-button-container:hover{
+    scale: 1.1;
+    cursor: pointer;
 }
