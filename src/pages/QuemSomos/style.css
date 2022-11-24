@@ -1,18 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-.group-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 
     font-family: Fira Code;
 }
 
-.cards-container{
+.group-section{
     display: flex;
-    gap: 0.5rem;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.section-title::before{
+    content: "";
+    width: 200px;
+    border-bottom: 2px solid #000;
 }

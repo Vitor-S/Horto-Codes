@@ -1,10 +1,13 @@
 import { createGeneric } from '../Utils/createElements.js'
 
-class Card extends HTMLElement{
-    constructor(){
+export class Card extends HTMLElement{
+    constructor(src, name){
         super()
 
+        this.src = src
+        this.name = name
         this.build()
+        this.mappingClick()
     }
 
     build(){
@@ -14,10 +17,10 @@ class Card extends HTMLElement{
         const card = createGeneric('div', 'card-container')
 
         const img = createGeneric('img', 'card-img')
-        img.src = this.getAttribute('src')
+        img.src = this.src
 
         const name = createGeneric('div', 'card-name')
-        name.innerHTML = this.getAttribute('name')
+        name.innerHTML = this.name
 
         card.appendChild(img)
         card.appendChild(name)
@@ -27,13 +30,13 @@ class Card extends HTMLElement{
 
     styles(){
         const style = document.createElement('style')
+
         style.textContent = `
             .card-container{
                 display: flex;
-                padding: 1.5rem;
+                padding: 1.5rem 0;
                 flex-direction: column;
                 align-items: center;
-                gap: 1rem;
                 border-radius: 3%;
 
                 transition: 0.4s ease-out;
@@ -54,14 +57,15 @@ class Card extends HTMLElement{
                 cursor: pointer;
             }
         `
+
         return style;
     }
 
-    // createGeneric(type, class_name){
-    //     const element = document.createElement(type)
-    //     element.classList.add(class_name)
-    //     return element
-    // }
+    mappingClick(){
+        this.addEventListener('click', e => {
+            console.log('click')
+        })
+    }
 }
 
 customElements.define('person-card', Card)
