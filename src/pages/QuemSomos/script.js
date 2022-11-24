@@ -1,4 +1,4 @@
-import { Card } from "../../components/Card.js"
+import { mappingCards } from "../../Utils/createElements.js"
 
 const sections = document.querySelectorAll('.group-section')
 const popupWrapper = document.querySelector('.popup-wrapper')
@@ -190,22 +190,8 @@ const data = [
 
 class QuemSomos {
     constructor(){
-        this.mappingCards()
+        mappingCards(sections, data)
         this.closePopup()
-    }
-
-    mappingCards(){
-        sections.forEach(sec => {
-            this.searchPersons(sec.id).forEach(person => {
-                const card = new Card(person.image, person.first_name)
-                sec.appendChild(card)
-            })
-        })
-    }
-
-    //MUDAR PARA PESQUISAR NO BANCO
-    searchPersons(search){
-        return data.filter(person => person.group == search)
     }
 
     closePopup(){
