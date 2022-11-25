@@ -1,3 +1,7 @@
+<?php
+include_once('../../scripts/card.php');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,34 +13,60 @@
     <!-- IMPORT LOTTIE -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js" integrity="sha512-yAr4fN9WZH6hESbOwoFZGtSgOP+LSZbs/JeoDr02pOX4yUFfI++qC9YwIQXIGffhnzliykJtdWTV/v3PxSz8aw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="../../components/animatedButton.js" defer></script>
-    <script src="script.js" defer type="module"></script>
-
     <title>Quem Somos</title>
 </head>
+
 <body class="body">
     <section class="left-section">
         <h2 class="section-title">Web Front End</h2>
-        <section class="group-section" id="web"></section>
+        <section class="group-section" id="web">
+            <!-- criando os cards baseado na seção/"grupo" em questão
+
+            Web Front-End  =  1
+            Banco de Dados =  2
+            Design         =  3
+            Web Back-End   =  4
+            Marketing      =  5
+            Gestão         =  6 
+            Tutoriais      =  7 
+            Documentação   =  8 
+
+            -->
+            <?= createCard(1) ?>
+        </section>
         <h2 class="section-title">Banco de Dados</h2>
-        <section class="group-section" id="banco_de_dados"></section>
+        <section class="group-section" id="banco_de_dados">
+            <?= createCard(2) ?>
+        </section>
         <h2 class="section-title">Design</h2>
-        <section class="group-section" id="design"></section>
+        <section class="group-section" id="design">
+            <?= createCard(3) ?>
+        </section>
         <h2 class="section-title">Web Beck End</h2>
-        <section class="group-section" id="programação"></section>
+        <section class="group-section" id="programação">
+            <?= createCard(4) ?>
+        </section>
     </section>
 
     <section class="right-section">
         <h2 class="section-title">Marketing</h2>
-        <section class="group-section" id="marketing"></section>
+        <section class="group-section" id="marketing">
+            <?= createCard(5) ?>
+        </section>
         <h2 class="section-title">Gestão</h2>
-        <section class="group-section" id="gestão"></section>
+        <section class="group-section" id="gestão">
+            <?= createCard(6) ?>
+        </section>
         <h2 class="section-title">Tutoriais</h2>
-        <section class="group-section" id="tutoriais"></section>
+        <section class="group-section" id="tutoriais">
+            <?= createCard(7) ?>
+        </section>
         <h2 class="section-title">Documentação</h2>
-        <section class="group-section" id="documentação"></section>
+        <section class="group-section" id="documentação">
+            <?= createCard(8) ?>
+        </section>
     </section>
-
+    <!-- !!!!! MUDAR VALORES PADRÕES !!!!! -->
     <div class="popup-wrapper">
         <div class="popup-container">
             <h2 class="popup-name">Vitor Silva Oliveira</h2>
@@ -58,4 +88,5 @@
         </div>
     </div>
 </body>
+<script src="script.js" defer></script>
 </html>
