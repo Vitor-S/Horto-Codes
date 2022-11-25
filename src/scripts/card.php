@@ -9,7 +9,8 @@
 
     while($row_aluno = $aluno_result->fetch(PDO::FETCH_ASSOC)){ // fetch em todos dados da tabela
         if($row_aluno){ // verificação é necessária para o php funcionar!!!
-            $aluno_imagem = $row_aluno['IMAGEM'];
+            // o src é baseado no arquivo INDEX.PHP da page QUEM SOMOS !!
+            $aluno_imagem = '../../assets/quemSomos/'.$row_aluno['IMAGEM'];
 
             $aluno_mat = $row_aluno['MATRICULA_ALUNO'];
     

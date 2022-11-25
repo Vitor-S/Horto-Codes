@@ -14,7 +14,9 @@ async function personCard(id) { // criando função asyn para poder usar WAIT de
         const popupName = document.querySelector('.popup-name');
         const popupImage = document.querySelector('.popup-image');
         const popupBio = document.querySelector('.popup-bio');
-  
+        
+        console.log("image: " + resposta['dados'].IMAGEM);
+
         popupName.innerHTML = resposta['dados'].PRIMEIRO_NOME;
         popupImage.innerHTML = resposta['dados'].IMAGEM;
         popupBio.innerHTML = resposta['dados'].DESCRICAO;
