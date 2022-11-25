@@ -9,7 +9,7 @@ include_once('../../scripts/card.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="ConexaoMySQL" href="ConexaoMySQL.php">
     <!-- IMPORT LOTTIE -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js" integrity="sha512-yAr4fN9WZH6hESbOwoFZGtSgOP+LSZbs/JeoDr02pOX4yUFfI++qC9YwIQXIGffhnzliykJtdWTV/v3PxSz8aw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -84,6 +84,7 @@ include_once('../../scripts/card.php');
                 <div class="animated-button-container" style="width: 60px; height: 60px;">
                     <animated-button class="animated-button" direction="1" type="repeat" animation="https://assets9.lottiefiles.com/packages/lf20_2ks3pjua.json"></animated-button>
                 </div>
+                <input >  </input>
             </div>
         </div>
     </div>
