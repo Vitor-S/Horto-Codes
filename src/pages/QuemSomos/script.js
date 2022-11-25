@@ -1,3 +1,5 @@
+const popupWrapper = document.querySelector('.popup-wrapper')
+
 async function personCard(id) { // criando função asyn para poder usar WAIT dentro dela
 
     // criando fetch para juntar script php com id selecionado quando o card é clicado
@@ -14,11 +16,16 @@ async function personCard(id) { // criando função asyn para poder usar WAIT de
         const popupName = document.querySelector('.popup-name');
         const popupImage = document.querySelector('.popup-image');
         const popupBio = document.querySelector('.popup-bio');
-        
-        console.log("image: " + resposta['dados'].IMAGEM);
 
-        popupName.innerHTML = resposta['dados'].PRIMEIRO_NOME;
-        popupImage.innerHTML = resposta['dados'].IMAGEM;
+        popupName.innerHTML = resposta['dados'].PRIMEIRO_NOME +' '+ resposta['dados'].ULTIMO_NOME;
+        popupImage.src = '../../assets/quemSomos/'.concat(resposta['dados'].IMAGEM);
         popupBio.innerHTML = resposta['dados'].DESCRICAO;
     }
 }
+
+document.addEventListener('click', e => {
+
+    if(e.target.classList.contains('popup-wrapper')){
+        popupWrapper.style = 'display: none;'
+    }
+})

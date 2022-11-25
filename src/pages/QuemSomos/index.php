@@ -9,7 +9,6 @@ include_once('../../scripts/card.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="ConexaoMySQL" href="ConexaoMySQL.php">
     <!-- IMPORT LOTTIE -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js" integrity="sha512-yAr4fN9WZH6hESbOwoFZGtSgOP+LSZbs/JeoDr02pOX4yUFfI++qC9YwIQXIGffhnzliykJtdWTV/v3PxSz8aw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -18,7 +17,7 @@ include_once('../../scripts/card.php');
 
 <body class="body">
     <section class="left-section">
-        <h2 class="section-title">Web Front End</h2>
+        <h2 class="section-title">Web Front-End</h2>
         <section class="group-section" id="web">
             <!-- criando os cards baseado na seção/"grupo" em questão
 
@@ -42,7 +41,7 @@ include_once('../../scripts/card.php');
         <section class="group-section" id="design">
             <?= createCard(3) ?>
         </section>
-        <h2 class="section-title">Web Beck End</h2>
+        <h2 class="section-title">Web Back-End</h2>
         <section class="group-section" id="programação">
             <?= createCard(4) ?>
         </section>
@@ -66,10 +65,10 @@ include_once('../../scripts/card.php');
             <?= createCard(8) ?>
         </section>
     </section>
-    <!-- !!!!! MUDAR VALORES PADRÕES !!!!! -->
+
     <div class="popup-wrapper">
         <div class="popup-container">
-            <h2 class="popup-name">Vitor Silva Oliveira</h2>
+            <h2 class="popup-name"></h2>
             <div class="popup-info">
                 <img class="popup-image" src="https://i.pinimg.com/originals/cb/1e/7d/cb1e7dbbb2cd77a1e7d78616bb2a0e03.png" alt="">
                 <p class="popup-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos est accusamus odio officiis explicabo cupiditate, quam animi. Vitae non, libero explicabo quis magni culpa neque itaque beatae officiis, harum dolores.</p>
@@ -84,10 +83,10 @@ include_once('../../scripts/card.php');
                 <div class="animated-button-container" style="width: 60px; height: 60px;">
                     <animated-button class="animated-button" direction="1" type="repeat" animation="https://assets9.lottiefiles.com/packages/lf20_2ks3pjua.json"></animated-button>
                 </div>
-                <input >  </input>
             </div>
         </div>
     </div>
 </body>
 <script src="script.js" defer></script>
+<script src="../../components/animatedButton.js" defer></script>
 </html>
