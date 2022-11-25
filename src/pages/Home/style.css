@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Fira Code;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2em;
+
+}
+
+
+.logoo {
+    justify-content: left;
+    width: 5px;
+    height: 5px;
+    left: auto;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 1em;
+    padding-left: 100px;
+
+}
+
+li {
+    font-size: x-large;
+
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: em;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 964px;
+    position: relative;
+}
+
+#carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+    height: 0;
+}
+
+#prev,
+#next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+}
+
+#prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+}
+
+#next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+#content {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 180px;
+    height: 180px;
+    background: green;
+}
