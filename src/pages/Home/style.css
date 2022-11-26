@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-
-    font-family: Fira Code;
+    box-sizing: border-box;
+    font-family: Poppins;
 }
 
 body {
@@ -10,41 +12,22 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 2em;
 
-}
-
-
-.logoo {
-    justify-content: left;
-    width: 5px;
-    height: 5px;
-    left: auto;
 }
 
 header {
+    font-size: 24pt;
+    width: 100%;
     display: flex;
-    justify-content: left;
     background-color: white;
-}
-
-ul {
+    padding: 1em;
     display: flex;
-    padding-bottom: 20px;
-    padding-top: 1em;
-    padding-left: 100px;
-
+    align-items: center;
 }
 
-li {
-    font-size: x-large;
-
-    padding-right: 2em;
-    padding-left: 2em;
-    padding-top: 1em;
-    padding-bottom: em;
-    list-style-type: none;
-    cursor: pointer;
+.logo{
+    width: 80px;
+    height: 80px;
 }
 
 #wrapper {
@@ -96,10 +79,38 @@ li {
     grid-auto-flow: column;
     margin: auto;
     box-sizing: border-box;
+
 }
 
 .item {
-    width: 180px;
-    height: 180px;
+    height: 300px;
+    width: 500px;
     background: green;
+    
+}
+
+.headerLinks{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+.headerLinks button{
+    font-size: 9pt;
+    border: 1px solid #000;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button{
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1E3B0E;
+    color: white;
 }
