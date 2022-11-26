@@ -1,4 +1,4 @@
-import { Card } from "../components/Card.js"
+import { Card } from "../components/card.js"
 
 export function createGeneric(type, class_name){
     const element = document.createElement(type)
@@ -14,6 +14,15 @@ export function mappingCards(sections, data){
     sections.forEach(sec => {
         searchPersons(sec.id, data).forEach(person => {
             const card = new Card(person.image, person.first_name)
+            sec.appendChild(card)
+        })
+    })
+}
+
+export function mappingCardViewer(sections, data){
+    sections.forEach(sec => {
+        searchPersons(sec.id, data).forEach(tutor => {
+            const cardViewer = new cardViewer(tutor.image, tutor.first_name)
             sec.appendChild(card)
         })
     })

@@ -5,48 +5,6 @@
     font-family: Fira Code;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 2em;
-
-}
-
-
-.logoo {
-    justify-content: left;
-    width: 5px;
-    height: 5px;
-    left: auto;
-}
-
-header {
-    display: flex;
-    justify-content: left;
-    background-color: white;
-}
-
-ul {
-    display: flex;
-    padding-bottom: 20px;
-    padding-top: 1em;
-    padding-left: 100px;
-
-}
-
-li {
-    font-size: x-large;
-
-    padding-right: 2em;
-    padding-left: 2em;
-    padding-top: 1em;
-    padding-bottom: em;
-    list-style-type: none;
-    cursor: pointer;
-}
-
 #wrapper {
     width: 100%;
     max-width: 964px;
