@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  font-size: 24pt;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+#wrapper {
+  width: 1080px;
+  position: relative;
+  scale: 0.85;
+}
+
+#carousel {
+  overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+#carousel::-webkit-scrollbar {
+  height: 0;
+}
+
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  outline: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+#prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+#next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  height: 540px;
+  width: 1080px;
+  background: green;
+}
+
+.headerLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+}
+
+.headerLinks button {
+  font-size: 9pt;
+  border: 1px solid #000;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+button {
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1E3B0E;
+  color: white;
+}
