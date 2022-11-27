@@ -35,7 +35,6 @@
   }
 
   nav .nav-links {
-    width: 60%;
     align-items: center;
     display: flex;
     justify-content: space-around;
