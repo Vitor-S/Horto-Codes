@@ -12,10 +12,7 @@
     padding: 1rem 0;
     align-items: center;
     justify-content: center;
-}
-
-body{
-    display: flex;
+    flex-direction: row;
 }
 
 .right-section, .left-section{
@@ -24,4 +21,8 @@ body{
 
 .section-title{
     text-align: center;
+}
+
+h2{
+    color: white;
 }

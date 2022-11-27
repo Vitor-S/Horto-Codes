@@ -56,6 +56,7 @@
 
 .popup-name{
     text-align: center;
+    color: black;
 }
 
 .popup-info{
