@@ -7,37 +7,59 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-flow: wrap;
 
     width: 100vw;
     height: 100vh;
 }
 
-.tutor-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 6%;
-    width: 30%;
-    height: 30%;
+section h1{
+    font-size: 60px;
+    width: fit-content;
+    border-radius: 65px;
+    padding: 10px;
+    /* color: black;
+    background-color: white; */
+    color: white;
 }
 
-.tutor-image{
-    width: 70%;
-    height: 70%;
-    border-radius: 13px;
-    background-color: blueviolet;
-
-    transition: 0.4s ease-out;
+section li{
+    color: white;
+    margin-left: 5%;
+    font-size: 40px;
+    margin-bottom: 1%;
 }
 
-.tutor-image:hover{
-    scale: 1.08;
+.container-tutor{
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.separator{
+    background-color: #F2F700;
+    width: 30%; /* dps para 80% */
+    height: 1px;
+}
+
+.title:hover{
     cursor: pointer;
 }
 
-.tutor-title{
-    font-family: Fira Code;
-    font-size: 1.3rem;
+li:hover{
+    cursor: pointer;
+}
+
+ul{
+    display: none;
+}
+
+ul.view{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+ul.view .separator{
+    width: 80%;
 }

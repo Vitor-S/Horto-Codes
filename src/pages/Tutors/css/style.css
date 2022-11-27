@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+.container-tutor {
+  width: 90%;
+  height: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.container-tutor section h1 {
+  font-size: 60px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 65px;
+  padding: 10px;
+  color: white;
+}
+.container-tutor section li {
+  color: white;
+  margin-left: 5%;
+  font-size: 40px;
+  margin-bottom: 1%;
+}
+.container-tutor section li:hover {
+  cursor: pointer;
+}
+.container-tutor section ul {
+  display: none;
+}
+.container-tutor section ul.view {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
+}
+.container-tutor section .separator {
+  background-color: #F2F700;
+  width: 30%;
+  height: 1px;
+  transition: all 400ms ease-in-out;
+}
+.container-tutor section .separator.view {
+  width: 80%;
+}
+.container-tutor section .title:hover {
+  cursor: pointer;
+}

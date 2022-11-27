@@ -1,4 +1,4 @@
-import { createGeneric } from '../Utils/createElements.js'
+import { createGeneric } from '../Utils/createElements.js';
 
 export class CardViewer extends HTMLElement{
     constructor(src, title){
