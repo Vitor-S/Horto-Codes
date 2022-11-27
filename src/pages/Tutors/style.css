@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.tutor-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+    width: 30%;
+    height: 30%;
+}
+
+.tutor-image{
+    width: 70%;
+    height: 70%;
+    border-radius: 13px;
+    background-color: blueviolet;
+
+    transition: 0.4s ease-out;
+}
+
+.tutor-image:hover{
+    scale: 1.08;
+    cursor: pointer;
+}
+
+.tutor-title{
+    font-family: Fira Code;
+    font-size: 1.3rem;
+}

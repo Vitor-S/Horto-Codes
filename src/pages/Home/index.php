@@ -5,38 +5,13 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <script src="./script.js" defer></script>
-    <script src="glider.js"></script>
+    <script src="script.js" defer></script>
+
     <title>Home</title>
 </head>
 
-
 <body>
-    <nav>
-        <div class="logo-div">
-            <img src="../../assets/eu.png" alt="" class="logo">
-        </div>
-        <ul class="nav-links">
-            <li>
-                <button href="">O que é RoboCode</button>
-            </li>
-            <li>
-                <button href="">Tutoriais</button>
-            </li>
-            <li>
-                <button href="">Quem Somos</button>
-            </li>
-            <li>
-                <button href="">Contato</button>
-            </li>
-        </ul>
-
-    </nav>
+    <?php include_once("../../components/header.php") ?>
     <main>
         <div id="wrapper">
             <div id="carousel">
@@ -63,8 +38,8 @@
         </div>
         <div class="container-text">
             <h2>Horcodes</h2>
-            <p>Nossa turma de Desenvolvimento de Sistemas 02 do Senai Horto resolvemos juntar a instituição com o nome do aplicativo que usamos (ROBO CODE), como estudamos no senai Horto, usamos apenas a nomenclatura "HORTO + ROBOCODE" e assim nasceu o "HORCODES", graças à maioria em uma votação! 
-            <a href="">Saiba Mais!</a>
+            <p>Nossa turma de Desenvolvimento de Sistemas 02 do Senai Horto resolvemos juntar a instituição com o nome do aplicativo que usamos (ROBO CODE), como estudamos no senai Horto, usamos apenas a nomenclatura "HORTO + ROBOCODE" e assim nasceu o "HORCODES", graças à maioria em uma votação!
+                <a href="">Saiba Mais!</a>
             </p>
         </div>
     </main>
