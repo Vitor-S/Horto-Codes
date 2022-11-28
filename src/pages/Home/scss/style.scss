@@ -53,7 +53,6 @@ main {
             .item {
                 height: 540px;
                 width: 1080px;
-                border-radius: 1em;
             }
 
         }
@@ -74,7 +73,6 @@ main {
     background: white;
     border: none;
     padding: 8px;
-    border-radius: 50%;
     outline: 0;
     cursor: pointer;
     position: absolute;
@@ -103,8 +101,7 @@ main {
 
     h2 {
         //background-color: #F2F700;
-        background-color: white;
-        border-radius: 75px;
+        background-color: transparent;
         font-size: 20px;
         font-weight: 600;
         padding: 1.3rem;
@@ -115,8 +112,7 @@ main {
         width: 50%;
         height: 50%;
         //background-color: #F2F700;
-        background-color: white;
-        border-radius: 75px;
+        background-color: transparent;
         font-size: 20px;
         font-weight: 400;
         padding: 1.3rem;
