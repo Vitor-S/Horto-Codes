@@ -46,23 +46,29 @@
   }
 
   nav .nav-links a {
-    width: 200px;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1px;
+    position: relative;
     text-decoration: none;
-    border: none;
-    border-radius: 1em;
-    background-color: transparent;
-    color: white;
-    transition: all 200ms ease-in-out;
-    padding: 12px;
+    color: #FFF;
+
+    font-size: 1.3rem;
+    font-weight: 500;
+
+    padding: 30px 10px 10px 10px;
   }
 
-  nav .nav-links a:hover {
-    cursor: pointer;
-    color: black;
-    scale: 1.1;
-    background-color: white;
+  nav .nav-links a::after {
+    content: "";
+    position: absolute;
+    background-color: #FFF;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s ease-out;
+  }
+
+  nav .nav-links a:hover::after{
+    width: 100%;
+    border-radius: 10 px;
   }
 </style>
