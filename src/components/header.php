@@ -1,7 +1,7 @@
 <nav>
-  <div class="logo-div">
+  <a class="logo-div" href="../../pages/home/index.php">
     <img src="../../assets/eu.png" alt="" class="logo">
-  </div>
+  </a>
   <ul class="nav-links">
     <li>
       <a href="">O que é RoboCode</a>

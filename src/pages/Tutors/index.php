@@ -53,8 +53,9 @@ include_once('../../components/header.php'); // incluindo a header
    
    
    </div>
-    <?php include_once('../../components/popupCard/popup.php');
+   <?php include_once('../../components/popupCard/popup.php');
     include_once('../../components/popupCard/popupVideo.php');  // precisa incluir o popup no final
     // para evitar de ele ficar com o z-index errado?> 
+<?php include_once("../../components/footer.php"); ?>
 </body>
 </html>

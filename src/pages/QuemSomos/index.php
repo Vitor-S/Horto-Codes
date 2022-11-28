@@ -65,7 +65,7 @@ include_once('../../scripts/card.php');
             <?= createCard(8) ?>
         </section>
     </section>
-    
+    <?php include_once("../../components/footer.php") ?>
 
 </body>
 

@@ -9,7 +9,10 @@
   margin-top: 5%;
   margin-left: 5%;
 }
-.container-tutor section h1 {
+.container-tutor section {
+  width: 90%;
+}
+.container-tutor section .title {
   font-size: 60px;
   width: -webkit-fit-content;
   width: -moz-fit-content;

@@ -29,16 +29,12 @@ function createCard($grupo)
 
     <!-- estilizando -->
     <style>
-        a {
-            color: white;
-        }
-
         .card-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             border-radius: 3%;
-
+            color: white;
             transition: 0.4s ease-out;
         }
 
