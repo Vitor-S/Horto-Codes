@@ -62,7 +62,7 @@
   nav .nav-links a:hover {
     cursor: pointer;
     color: black;
-    font-weight: 600;
+    scale: 1.1;
     background-color: white;
   }
 </style>

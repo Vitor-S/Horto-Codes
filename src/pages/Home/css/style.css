@@ -112,8 +112,8 @@ main {
   display: flex;
   flex-direction: column;
 }
-.container-text a {
-  position: relative;
+.container-text a, .card-container {
+    position: relative;
     text-decoration: none;
     color: #FFF;
 
@@ -124,7 +124,7 @@ main {
     padding: 30px 10px 10px 10px;
 }
 
-a::after{
+.more-info::after, .card-container::after{
   content: "";
   position: absolute;
   background-color: #FFF;
@@ -135,7 +135,7 @@ a::after{
   transition: 0.3s ease-out;
 }
 
-a:hover::after{
+.more-info:hover::after, .card-container:hover::after{
   width: 100%;
 }
 
