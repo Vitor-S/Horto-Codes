@@ -1,10 +1,12 @@
+
+
 <nav>
   <a class="logo-div" href="../../pages/home/index.php">
     <img src="../../assets/eu.png" alt="" class="logo">
   </a>
   <ul class="nav-links">
     <li>
-      <a href="">O que é RoboCode</a>
+      <a href="../../pages/Robocode/index.php">O que é RoboCode</a>
     </li>
     <li>
       <a href="../../pages/Tutors/index.php">Tutoriais</a>
@@ -13,7 +15,7 @@
       <a href="../../pages/QuemSomos/index.php">Quem Somos</a>
     </li>
     <li>
-      <a href="">Contato</a>
+      <a href="../../pages/Contato/index.php">Contato</a>
     </li>
   </ul>
 
