@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include_once("../../components/header.php") ?>
+    <?php include_once("/../../components/header.php") ?>
     <main>
         <div id="wrapper">
             <div id="carousel">
@@ -43,7 +43,7 @@
             </p>
         </div>
     </main>
-    <?php include_once("../../components/footer.php") ?>
+    <?php include_once("/../../components/footer.php") ?>
 </body>
 
 </html>
