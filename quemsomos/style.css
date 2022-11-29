@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+}
+
+.group-section{
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.right-section, .left-section{
+    width: 50%;
+}
+
+.section-title{
+    text-align: center;
+    color: white !important;
+}
