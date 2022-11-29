@@ -1,3 +1,3 @@
 <?php
 
-//require __DIR__ . '/../src/pages/Home/index.php';
+require __DIR__ . 'index.html';
