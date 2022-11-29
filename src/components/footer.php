@@ -4,7 +4,8 @@
 
 <style>
     footer{
-        background-color: white;
+        background-color: transparent;
+        color: #FFF;
         font-size: 18px;
         padding: 15px;
         text-align: center;
