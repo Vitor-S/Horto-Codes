@@ -11,16 +11,16 @@
 </head>
 
 <body>
-    <?php include_once("/../../components/header.php") ?>
+    <?php include_once("./../../components/header.php") ?>
     <main>
         <div id="wrapper">
             <div id="carousel">
                 <div id="content">
-                    <img src="../../assets/home/carrossel/carrossel_01.png" class="item" />
-                    <img src="../../assets/home/carrossel/carrossel_02.png" class="item" />
-                    <img src="../../assets/home/carrossel/carrossel_03.png" class="item" />
-                    <img src="../../assets/home/carrossel/carrossel_04.png" class="item" />
-                    <img src="../../assets/home/carrossel/carrossel_05.png" class="item" />
+                    <img src="./../../assets/home/carrossel/carrossel_01.png" class="item" />
+                    <img src="./../../assets/home/carrossel/carrossel_02.png" class="item" />
+                    <img src="./../../assets/home/carrossel/carrossel_03.png" class="item" />
+                    <img src="./../../assets/home/carrossel/carrossel_04.png" class="item" />
+                    <img src="./../../assets/home/carrossel/carrossel_05.png" class="item" />
                 </div>
             </div>
             <button id="prev">
@@ -43,7 +43,7 @@
             </p>
         </div>
     </main>
-    <?php include_once("/../../components/footer.php") ?>
+    <?php include_once("./../../components/footer.php") ?>
 </body>
 
 </html>
