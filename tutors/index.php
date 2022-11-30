@@ -41,6 +41,7 @@ include('../scripts/tutors.php');
         </ul>
         <div class="separator" id="separator-fire"></div>
    </section>
+
    <section class="sec-track">
     <h1 class="title" id="title-track">Mira</h1>
         <ul class="track">
@@ -48,7 +49,18 @@ include('../scripts/tutors.php');
         </ul>
         <div class="separator" id="separator-track"></div>
    </section>
-   
+    <?php 
+    // troca a classe de section
+    // id do h1
+    // classe da ul
+    // id da div do separator?>
+   <section class="sec-ex">
+    <h1 class="title" id="title-ex">Exemplos</h1>
+        <ul class="ex">
+            <?php getTutors(5); ?>
+        </ul>
+        <div class="separator" id="separator-ex"></div>
+   </section>
    
    </div>
    <?php include_once('../components/popupCard/popup.php');
