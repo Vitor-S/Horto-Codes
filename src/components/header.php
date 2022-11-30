@@ -6,23 +6,24 @@
   </a>
   <ul class="nav-links">
     <li>
-      <a href="../../pages/Robocode/index.php">O que é RoboCode</a>
+      <a class="link" href="../../pages/Robocode/index.php">O que é RoboCode</a>
     </li>
     <li>
-      <a href="../../pages/Tutors/index.php">Tutoriais</a>
+      <a class="link" href="../../pages/Tutors/index.php">Tutoriais</a>
     </li>
     <li>
-      <a href="../../pages/QuemSomos/index.php">Quem Somos</a>
+      <a class="link" href="../../pages/QuemSomos/index.php">Quem Somos</a>
     </li>
     <li>
-      <a href="../../pages/Contato/index.php">Contato</a>
+      <a class="link" href="../../pages/Contato/index.php">Contato</a>
     </li>
   </ul>
-
 </nav>
+
 
 <style>
   nav {
+    top: 0;
     margin: 10px;
     display: flex;
     align-items: center;

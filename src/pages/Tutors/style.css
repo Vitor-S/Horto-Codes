@@ -30,8 +30,11 @@ section li{
 }
 
 .container-tutor{
-    width: 90%;
-    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
     margin-top: 5%;
     margin-left: 5%;
 }
@@ -62,4 +65,14 @@ ul.view{
 
 ul.view .separator{
     width: 80%;
+}
+
+.animation-container{
+    width: 80%;
+    height: 80%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }

@@ -33,6 +33,10 @@ main {
   flex-direction: column;
 }
 
+.P{
+  color: aqua;
+}
+
 #wrapper {
   width: 1080px;
   position: relative;
@@ -138,6 +142,7 @@ main {
 .more-info:hover::after, .card-container:hover::after{
   width: 100%;
 }
+
 
 @-webkit-keyframes gradient {
   0% {
