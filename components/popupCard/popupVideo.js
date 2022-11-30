@@ -20,7 +20,13 @@ async function popupVideo(id) { // criando função asyn para poder usar WAIT de
     }
 }
 
+// quando o usuário clicar fora do popup com ele aberto, irá se fechar
 document.addEventListener('click', e => {
+
+    // tratando o evento em que o usuário fecha o popup com o vídeo ainda em play
+    // trocando o src do iframe do player para poder parar o video e limpar o cache do iframe
+    var iframes = document.querySelector('.popup-video'); 
+      iframes.src = "";
 
     if(e.target.classList.contains('popup-wrapper-video')){
         popupWrapperVideo.style = 'display: none;'
