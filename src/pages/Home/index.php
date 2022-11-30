@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="../../../GlobalStyle.css">
+    <link rel="stylesheet" href="./style.css">
+
     <script src="script.js" defer></script>
 
     <title>Home</title>

@@ -11,8 +11,8 @@ include('../../scripts/tutors.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
     <script src="../../components/popupCard/popupVideo.js" defer></script>
-    <link rel="stylesheet" href="../Home/css/style.css">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="../../../GlobalStyle.css">
     <link rel="stylesheet" href="./style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.0/lottie.min.js" integrity="sha512-17otjw7eTNU9MtpB7mFfXEwB6yDjA2qjDFkKSvsywI1PRAgpyOo+cp/wPSE/1kK4fFjA9OKsZVO1tr93MGNCEw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0px;
-}
-
 body{
     display: flex;
     justify-content: space-around;
@@ -17,8 +12,6 @@ section h1{
     width: fit-content;
     border-radius: 65px;
     padding: 10px;
-    /* color: black;
-    background-color: white; */
     color: white;
 }
 
@@ -29,15 +22,6 @@ section li{
     margin-bottom: 1%;
 }
 
-.container-tutor{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 70%;
-    margin-top: 5%;
-    margin-left: 5%;
-}
 
 .separator{
     background-color: #F2F700;
@@ -76,3 +60,41 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.container-tutor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 90%;
+}
+  .container-tutor section {
+    width: 90%;
+  }
+  .container-tutor section li:hover {
+    cursor: pointer;
+  }
+  .container-tutor section ul {
+    display: none;
+  }
+  .container-tutor section ul.view {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+  .container-tutor section .separator {
+    background-color: #F2F700;
+    width: 30%;
+    height: 1px;
+    transition: all 400ms ease-in-out;
+  }
+  .container-tutor section .separator.view {
+    width: 80%;
+  }
+  .container-tutor section .title:hover {
+    cursor: pointer;
+  }
