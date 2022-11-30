@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../GlobalStyle.css">
+
     <title>Contato</title>
 </head>
 <body>
-    <?php include_once("../components/header.php");?>
+    <?php include_once("../components/header.php") ?>
     <h2>Contato</h2>
-    <?php include_once("../components/footer.php");?>
 </body>
 </html>

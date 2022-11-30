@@ -1,27 +1,28 @@
 <header>
-<nav>
-  <a class="logo-div" href="../home">
-    <img src="../assets/eu.png" alt="" class="logo">
-  </a>
-  <ul class="nav-links">
-    <li>
-      <a href="../robocode">O que é RoboCode</a>
-    </li>
-    <li>
-      <a href="../tutors">Tutoriais</a>
-    </li>
-    <li>
-      <a href="../quemSomos">Quem Somos</a>
-    </li>
-    <li>
-      <a href="../contato">Contato</a>
-    </li>
-  </ul>
-</nav>
+  <nav>
+    <a class="logo-div" href="../home">
+      <img src="../assets/eu.png" alt="" class="logo">
+    </a>
+    <ul class="nav-links">
+      <li>
+        <a class="link" href="../robocode">O que é RoboCode</a>
+      </li>
+      <li>
+        <a class="link" href="../tutors">Tutoriais</a>
+      </li>
+      <li>
+        <a class="link" href="../quemsomos">Quem Somos</a>
+      </li>
+      <li>
+        <a class="link" href="../contato">Contato</a>
+      </li>
+    </ul>
+  </nav>
 </header>
 
 <style>
   nav {
+    top: 0;
     margin: 10px;
     display: flex;
     align-items: center;
@@ -68,7 +69,7 @@
     transition: 0.3s ease-out;
   }
 
-  nav .nav-links a:hover::after{
+  nav .nav-links a:hover::after {
     width: 100%;
     border-radius: 10 px;
   }

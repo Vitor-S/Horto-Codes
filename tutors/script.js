@@ -10,3 +10,14 @@ for (let i = 0; i < title.length; i++) {
         sep.classList.toggle("view");
     });
 }
+
+var animation = lottie.loadAnimation({
+    container: document.querySelector('.animation-container'), // Required
+    path: 'https://assets4.lottiefiles.com/packages/lf20_oec0t53s.json', // Required
+    renderer: 'svg', // Required
+    loop: true, // Optional
+    autoplay: true, // Optional
+    name: "Robot", // Name for future reference. Optional.
+    })
+    
+animation.play()
