@@ -1,4 +1,4 @@
-<header>
+
   <nav>
     <a class="logo-div" href="../home">
       <img src="../assets/eu.png" alt="" class="logo">
@@ -18,11 +18,12 @@
       </li>
     </ul>
   </nav>
-</header>
 
 <style>
   nav {
+    position: sticky;
     top: 0;
+    left: 0;
     margin: 10px;
     display: flex;
     align-items: center;

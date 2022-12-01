@@ -18,5 +18,6 @@
         left: 0;
         bottom: 0;
         margin-top: auto;
+        position: sticky;
     }
 </style>
