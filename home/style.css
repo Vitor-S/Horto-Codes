@@ -15,6 +15,11 @@ body {
 
 }
 
+.test{
+    width: 200px;
+    border-radius: 50%;
+}
+
 header {
     font-size: 24pt;
     width: 100%;

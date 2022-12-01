@@ -1,8 +1,17 @@
+/* body{
+    background: linear-gradient(to right, #4f0940, #ae48dd);
+} */
+
 main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
-    width: 100%;
+}
+
+.robot-gif{
+    width: 100px;
 }
 
 h2, p{

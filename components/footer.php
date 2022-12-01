@@ -12,11 +12,11 @@
         font-size: 18px;
         padding: 15px;
         text-align: center;
-        width: 100%;
+        width: 95vw;
         height: 80px;
         right: 0;
         left: 0;
         bottom: 0;
-        margin-top: auto;
+        margin: auto;
     }
 </style>
