@@ -42,8 +42,7 @@
 img[alt*="000webhost"],
 img[alt*="000webhost"][style],
 img[src*="000webhost"],
-img[src*="000webhost"][style],
-body > div:nth-last-of-type(1)[style]{
+img[src*="000webhost"][style]{
     opacity: 0 !important;
     pointer-events:none !important;
     width: 0px !important;
