@@ -33,7 +33,7 @@ function createCard($grupo)
             width: 150px;
             height: 150px;
             display: flex;
-            justfy-content: space-evenly;
+            justify-content: space-evenly;
             flex-direction: column;
             align-items: center;
             border-radius: 3%;

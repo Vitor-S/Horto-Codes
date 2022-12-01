@@ -10,7 +10,7 @@
         // quando é feito um post de um arquivo, ele é estocado dentro do php
         // é preciso mover ele para fora da "memória interna" para outra pasta
         // diretorio para onde irão as fotos
-        $diretorio = "../assets/robo/";
+        $diretorio = "../../assets/robo/";
 
         // movendo essa foto para outra pasta e alterando o nome da imagem
         // (tmp_name é um atributo do $_FILES)
