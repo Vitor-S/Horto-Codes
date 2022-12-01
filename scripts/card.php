@@ -11,7 +11,7 @@ function createCard($grupo)
     while ($row_aluno = $aluno_result->fetch(PDO::FETCH_ASSOC)) { // fetch em todos dados da tabela
         if ($row_aluno) { // verificação é necessária para o php funcionar!!!
             // o src é baseado no arquivo INDEX.PHP da page QUEM SOMOS !!
-            $aluno_imagem = '../assets/quemSomos/' . $row_aluno['IMAGEM'];
+            $aluno_imagem = '../assets/quemsomos/' . $row_aluno['IMAGEM'];
 
             $aluno_mat = $row_aluno['MATRICULA_ALUNO'];
 
@@ -30,7 +30,10 @@ function createCard($grupo)
     <!-- estilizando -->
     <style>
         .card-container {
+            width: 150px;
+            height: 150px;
             display: flex;
+            justfy-content: space-evenly;
             flex-direction: column;
             align-items: center;
             border-radius: 3%;
@@ -40,7 +43,10 @@ function createCard($grupo)
 
         .card-img {
             width: 120px;
-            border-radius: 50%;
+            height: 120px;
+            object-fit: cover;
+            clip-path: circle();
+            object-position: 100% 10%;
         }
 
         .card-name {

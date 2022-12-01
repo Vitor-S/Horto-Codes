@@ -7,6 +7,10 @@
     font-weight: 300;
 }
 
+body{
+    background-size: 1000% 1000%;
+}
+
 .group-section{
     display: flex;
     padding: 1rem 0;
@@ -22,7 +26,7 @@
 
 .section-title{
     text-align: center;
-    color: white !important;
+    color: red !important;
 }
 
 .main-section{
