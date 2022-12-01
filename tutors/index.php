@@ -54,6 +54,13 @@ include('../scripts/tutors.php');
                     </ul>
                     <div class="separator" id="separator-track"></div>
             </section>
+            <section class="sec-ex">
+                <h1 class="title" id="title-ex">Exemplos</h1>
+                    <ul class="ex">
+                        <?php getTutors(5); ?>
+                    </ul>
+                    <div class="separator" id="separator-ex"></div>
+            </section>
         </div>
         <div class="animation-container">
 

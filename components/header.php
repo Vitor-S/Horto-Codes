@@ -1,4 +1,4 @@
-<header>
+
   <nav>
     <a class="logo-div" href="../home">
       <img src="../assets/eu.png" alt="" class="logo">
@@ -18,7 +18,6 @@
       </li>
     </ul>
   </nav>
-</header>
 
 <style>
 
