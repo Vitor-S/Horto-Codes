@@ -1,5 +1,5 @@
 main {
-  width: 100vw;
+  width: 95vw;
   height: fit-content;
   min-height: calc(100vh - 200px);
   display: flex;
