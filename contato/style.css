@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 main{
-    width: 100vw;
-    min-height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    min-height: calc(100vh - 200px);
 }
 
 form{
@@ -11,7 +14,7 @@ form{
     gap: 10px;
     align-items: center;
     width: 60%;
-    height: 80%;
+    height: 90%;
 }
 
 input{
@@ -70,4 +73,4 @@ button::after{
 
 button:hover::after{
     width: 100%;
-  }
+}

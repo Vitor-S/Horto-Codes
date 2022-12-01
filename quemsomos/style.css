@@ -20,6 +20,12 @@ body{
     flex-direction: row;
 }
 
+@media screen and (max-width: 500px){
+    .group-section{
+        flex-direction: column;
+    }
+}
+
 .right-section, .left-section{
     width: 50%;
 }

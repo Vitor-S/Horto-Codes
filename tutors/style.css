@@ -1,27 +1,30 @@
-body{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    width: 100vw;
-    height: 100vh;
+main {
+  width: 100vw;
+  height: fit-content;
+  min-height: calc(100vh - 200px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-section h1{
-    font-size: 60px;
-    width: fit-content;
-    border-radius: 65px;
-    padding: 10px;
-    color: white;
-}
-
+.title{
+    font-size: 3.5rem;
+    color: #FFF;
+  }
+  
 section li{
+    list-style: none;
+    padding-left: 3rem;
     color: white;
     margin-left: 5%;
-    font-size: 40px;
+    font-size: 1.7rem;
     margin-bottom: 1%;
+    transition: 0.3s ease-out;
 }
 
+section li:hover{
+  scale: 1.1;
+}
 
 .separator{
     background-color: #F2F700;
@@ -52,8 +55,7 @@ ul.view .separator{
 }
 
 .animation-container{
-    width: 80%;
-    height: 80%;
+    height: 500px;
 }
 
 main{
@@ -62,14 +64,12 @@ main{
 }
 
 .container-tutor{
+    height: 60%;
     display: flex;
+    padding-left: 5rem;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
-    max-height: 90%;
 }
   .container-tutor section {
     width: 90%;
