@@ -1,4 +1,4 @@
-<?php
+<?php 
 function createCarousel()
 {
     include('../scripts/conexao.php');
@@ -9,10 +9,15 @@ function createCarousel()
 
     while ($row_carr = $carr_result->fetch(PDO::FETCH_ASSOC)) { // fetch em todos dados da tabela
         if ($row_carr) {
-            $carr_imagem = $row_carr['BANNER_ROBO'];
+            $carr_imagem = '../assets/robo/'. $row_carr['BANNER_ROBO'];
+            $carr_id = $row_carr['ID_ROBO'];
         }
         // criando componente html com echo e colocando seu valores baseado na query
-        echo '<img src="'. $carr_imagem .'" class="item"/>';
+
+        echo "<form action='../robo?id=$carr_id' method='POST'>
+            <input type='hidden' name='click-robot' value=$carr_id>
+            <input type='image' src=$carr_imagem class='item'>
+            </form>";
     };
 }
 
@@ -21,7 +26,13 @@ function createCarousel()
 <div id="wrapper">
     <div id="carousel">
         <div id="content">
+            <a href="">
+                <img src="../assets/robo/hor1.png" alt="" class="item">
+            </a>
             <?php createCarousel(); ?>
+            <a href="">
+                <img src="../assets/robo/hor2.png" alt="" class="item">
+            </a>
         </div>
     </div>
     <button id="prev">

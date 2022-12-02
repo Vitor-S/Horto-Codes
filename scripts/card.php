@@ -77,7 +77,7 @@ function createCardSingle($mat)
 
     if ($row_aluno) { // verificação é necessária para o php funcionar!!!
         // o src é baseado no arquivo INDEX.PHP da page QUEM SOMOS !!
-        $aluno_imagem = '../assets/quemSomos/' . $row_aluno['IMAGEM'];
+        $aluno_imagem = '../assets/quemsomos/' . $row_aluno['IMAGEM'];
 
         $aluno_mat = $row_aluno['MATRICULA_ALUNO'];
 

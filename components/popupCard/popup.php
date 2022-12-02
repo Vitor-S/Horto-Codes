@@ -51,7 +51,10 @@
 
 .popup-image{
     width: 200px;
-    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    clip-path: circle();
+    object-position: 100% 10%;
 }
 
 .popup-name{

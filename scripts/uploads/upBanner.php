@@ -25,7 +25,6 @@
             $arquivo_result->bindParam(':img', $novo_nome, PDO::PARAM_STR);
             $arquivo_result->bindParam(':id', $id, PDO::PARAM_INT);
             $arquivo_result->execute();
-            echo('Update'.$id.' para img: '.$img);
         } catch (PDOException $e) {
             echo 'Error => ' . $e->getMessage();
         }
