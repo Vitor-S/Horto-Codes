@@ -26,11 +26,11 @@ function createCarousel()
 <div id="wrapper">
     <div id="carousel">
         <div id="content">
-            <a href="">
+            <a href="https://www.instagram.com/horcodes/" target="_blank">
                 <img src="../assets/robo/hor1.png" alt="" class="item">
             </a>
             <?php createCarousel(); ?>
-            <a href="">
+            <a href="https://www.instagram.com/horcodes/" target="_blank">
                 <img src="../assets/robo/hor2.png" alt="" class="item">
             </a>
         </div>

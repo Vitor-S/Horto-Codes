@@ -21,27 +21,25 @@ include_once('../scripts/card.php');
     <?php include_once("../components/header.php") ?>
     <main>
         <section class="main-section">
+            <!-- criando os cards baseado na seção/"grupo" em questão
+
+            Web Front-End  =  1
+            Banco de Dados =  2
+            Design         =  3
+            Web Back-End   =  4
+            Marketing      =  5
+            Gestão         =  6 
+            Tutoriais      =  7 
+            Documentação   =  8 
+
+            -->
             <h2 class="section-title">Tutor</h2>
             <section class="group-section" id="web">
-                <a class="card-container" onclick = <?php personCard(0);?> >
-                    <img src="../assets/Edgar.jpg" alt="" class="card-img">
-                    <div class="card-name">Edgar</div>
-                </a>
+              <?php createCardSingle(1); ?>
             </section>
             <h2 class="section-title">Web Front-End</h2>
             <section class="group-section" id="web">
-                <!-- criando os cards baseado na seção/"grupo" em questão
-
-                Web Front-End  =  1
-                Banco de Dados =  2
-                Design         =  3
-                Web Back-End   =  4
-                Marketing      =  5
-                Gestão         =  6 
-                Tutoriais      =  7 
-                Documentação   =  8 
-
-                -->
+                <?= createCardSingle('0000887525'); ?>
                 <?= createCard(1) ?>
             </section>
             <h2 class="section-title">Banco de Dados</h2>

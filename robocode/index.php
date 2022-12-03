@@ -15,7 +15,7 @@
     <?php include_once("../components/header.php") ?>
     <main>
         <h2>O que é Robocode ?</h2>
-        <img class="robot-gif" src="../assets/tank.gif" alt="">
+        <img class="robot-gif" src="../assets/favicon.gif" alt="">
         <p>Robocode é um jogo focado em usar programação em linguagem Java, focado em criar um robô para competir com outros, e vencer o melhor na batalha, onde o objetivo principal é auxiliar no desenvolvimento lógico, matemático e ainda dar uma empurrãozinho na curiosidade do jogador em relação ao mundo de T.I. Atualmente, o Robocode é uma das melhores formas para aprender a programar de modo divertido, lúdico e amigável, em tempo real.</p>
         <iframe class="popup-video" width="560" height="315" src="https://www.youtube.com/embed/NmhYUuyhYoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>

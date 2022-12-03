@@ -8,13 +8,13 @@
             <p class="popup-bio"></p>
         </div>
         <div class="social-media-container">
-            <a href="">
-                <img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" class="animated-button-container" id="instagram-icon">
+            <a href="" id="github-link" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" class="animated-button-container" id="github-icon">
             </a>
-            <a href="">
+            <a href="" id="linkedin-link" target="_blank">
                 <img src="https://cdn-icons-png.flaticon.com/512/1377/1377213.png" class="animated-button-container" id="linkedin-icon">
             </a>
-            <a href="">
+            <a href="" id="instagram-link" target="_blank">
                 <img src="https://cdn-icons-png.flaticon.com/512/4138/4138124.png" class="animated-button-container" id="instagram-icon">
             </a>
         </div>
@@ -23,6 +23,11 @@
 
 <style>
 
+#github-link,
+#instagram-link,
+#linkedin-link{
+    display: none;
+}
 
 .popup-wrapper{
     display: none;
@@ -83,14 +88,17 @@
 }
 
 .social-media-container{
-    display: flex;
+    display: none;
     width: 50%;
     height: 50px;
     justify-content: space-around;
 }
 
-#github-icon{
-    transform: translateY(-13%);
+.popup-container {
+    background: linear-gradient(-135deg, #815AB4, #5B407F, #B780FF, #AD65AD, #AD65AD);
+    background-size: 1000% 1000%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 20s ease infinite;
 }
 
 .animated-button{
@@ -108,14 +116,6 @@
     scale: 1.1;
     cursor: pointer;
 }
-
-.popup-container {
-    background: linear-gradient(-135deg, #815AB4, #5B407F, #B780FF, #AD65AD, #AD65AD);
-    background-size: 1000% 1000%;
-    -webkit-animation: gradient 15s ease infinite;
-    animation: gradient 20s ease infinite;
-}
-
 
   @-webkit-keyframes gradient {
     0% {
