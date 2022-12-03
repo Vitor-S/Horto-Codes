@@ -15,8 +15,6 @@ include('../scripts/tutors.php');
     <link rel="stylesheet" href="../GlobalStyle.css">
     <link rel="stylesheet" href="./style.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.0/lottie.min.js" integrity="sha512-17otjw7eTNU9MtpB7mFfXEwB6yDjA2qjDFkKSvsywI1PRAgpyOo+cp/wPSE/1kK4fFjA9OKsZVO1tr93MGNCEw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
     <title>Tutoriais</title>
 </head>
 
@@ -61,9 +59,6 @@ include('../scripts/tutors.php');
                     </ul>
                     <div class="separator" id="separator-ex"></div>
             </section>
-        </div>
-        <div class="animation-container">
-
         </div>
     </main> 
 

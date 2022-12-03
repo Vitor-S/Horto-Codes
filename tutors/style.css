@@ -107,9 +107,6 @@ main{
 
   
 @media (max-width: 1200px) {
-  .animation-container{
-      display: none;
-  }
 
   main{
     display: flex;
