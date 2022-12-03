@@ -2,10 +2,10 @@
 
 <div class="popup-wrapper">
     <div class="popup-container">
-        <img class="popup-image" src="https://i.pinimg.com/originals/cb/1e/7d/cb1e7dbbb2cd77a1e7d78616bb2a0e03.png" alt="">
-        <h2 class="popup-name">Vitor Silva Oliveira</h2>
+        <img class="popup-image" src="" alt="">
+        <h2 class="popup-name"></h2>
         <div class="popup-info">
-            <p class="popup-bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum enim modi repudiandae repellat. Cumque quasi pariatur, rem at nobis maiores ea facere. Cum mollitia cumque voluptates! Explicabo quos at reprehenderit.</p>
+            <p class="popup-bio"></p>
         </div>
         <div class="social-media-container">
             <a href="">

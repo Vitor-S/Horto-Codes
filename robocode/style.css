@@ -20,7 +20,7 @@ main{
 }
 
 .robot-gif{
-    width: 100px;
+    width: 150px;
 }
 
 h2, p{
@@ -28,16 +28,14 @@ h2, p{
 }
 
 p{
-    width: 80%;
+    width: 70%;
     font-size: 1.2rem;
     text-align: justify;
 }
 
-.video{
-    width: 80%;
+.popup-video{
+    width: 70%;
+    height: 35%;
     aspect-ratio: 16/9;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: antiquewhite;
 }

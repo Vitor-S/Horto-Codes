@@ -16,10 +16,10 @@
 <body>
     <?php include_once("../components/header.php") ?>
     <main>  
-        <form action="https://formspree.io/f/mwkzdoqy" method="POST" />
-            <input class="nome" placeholder="Nome" type="text" >
-            <input class="assunto" placeholder="Assunto" type="text" >
-            <input class="email" placeholder="Email" type="text" >
+        <form action="https://formspree.io/f/mqkjvrag" method="POST" />
+            <input class="nome" placeholder="Nome" type="nome" name="nome" >
+            <input class="assunto" placeholder="Assunto" type="assunto" name="assunto" >
+            <input class="email" placeholder="Email" type="email" name="email" >
             <textarea name="Mensagem" placeholder="Mensagem" required></textarea>
             <button type="submit">Enviar</button>
         </form>

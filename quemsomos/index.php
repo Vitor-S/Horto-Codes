@@ -21,6 +21,13 @@ include_once('../scripts/card.php');
     <?php include_once("../components/header.php") ?>
     <main>
         <section class="main-section">
+            <h2 class="section-title">Tutor</h2>
+            <section class="group-section" id="web">
+                <a class="card-container" onclick = <?php personCard(0);?> >
+                    <img src="../assets/Edgar.jpg" alt="" class="card-img">
+                    <div class="card-name">Edgar</div>
+                </a>
+            </section>
             <h2 class="section-title">Web Front-End</h2>
             <section class="group-section" id="web">
                 <!-- criando os cards baseado na seção/"grupo" em questão

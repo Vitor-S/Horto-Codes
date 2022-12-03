@@ -1,3 +1,4 @@
+<link rel="shortcut icon" href="../assets/favicon.gif" type="image/x-icon">
 <nav>
     <a class="logo-div" href="../home">
       <img src="../assets/eu.png" alt="" class="logo">

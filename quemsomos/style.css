@@ -34,7 +34,7 @@ main{
     flex-direction: row;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
     .group-section{
         flex-direction: column;
     }
