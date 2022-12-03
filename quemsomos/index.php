@@ -9,6 +9,8 @@ include_once('../scripts/card.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="./script.js" defer></script>
+
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="../GlobalStyle.css">
 

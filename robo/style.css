@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 main {
     height: fit-content;
     min-height: calc(100vh - 200px);
@@ -16,8 +23,8 @@ main {
 }
 
 .img-robo {
-    width: 80%;
-    height: 75%;
+    width: 20%;
+    min-width: 152px;
 }
 
 .container-autores {
@@ -32,8 +39,7 @@ main {
 
 .des-robo{
     font-size: 1.5rem;
-    margin-top: 5%;
-    margin-bottom: 15%;
+    margin: 20px;
 }
 
 .autores-robo{

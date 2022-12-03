@@ -22,8 +22,10 @@
 </div>
 
 <style>
+
+
 .popup-wrapper{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 
@@ -36,6 +38,7 @@
 }
 
 .popup-container{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,6 +50,9 @@
     height: 70%;
     border-radius: 5px;
     color: #FFF;
+
+    -webkit-animation: tranlucent 2s ease infinite;
+    animation: translucent 2s ease infinite;
 }
 
 .popup-image{
@@ -104,7 +110,7 @@
 }
 
 .popup-container {
-    background: linear-gradient(-135deg, transparent, transparent, transparent, transparent, #815AB4, #5B407F, #B780FF, #AD65AD, #AD65AD);
+    background: linear-gradient(-135deg, #815AB4, #5B407F, #B780FF, #AD65AD, #AD65AD);
     background-size: 1000% 1000%;
     -webkit-animation: gradient 15s ease infinite;
     animation: gradient 20s ease infinite;
@@ -132,6 +138,15 @@
     }
     100% {
       background-position: 0% 50%;
+    }
+  }
+
+  @keyframes translucent {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
   }
 </style>

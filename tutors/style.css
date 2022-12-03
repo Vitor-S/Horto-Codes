@@ -1,3 +1,10 @@
+body{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 main {
   width: 95vw;
   height: fit-content;
@@ -97,3 +104,29 @@ main{
   .container-tutor section .title:hover {
     cursor: pointer;
   }
+
+  
+@media (max-width: 1200px) {
+  .animation-container{
+      display: none;
+  }
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-tutor{
+    gap: 35px;
+    padding: 0;
+  }
+
+  .title{
+    font-size: 2.5rem;
+  }
+  
+  section li{
+    font-size: 1.2rem;
+  }
+}

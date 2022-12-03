@@ -34,7 +34,7 @@ main {
 }
 
 #wrapper {
-  width: 1080px;
+  width: 67%;
   position: relative;
   scale: 0.85;
 }
@@ -160,5 +160,15 @@ main {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 1000px){
+  .container-text p{
+    width: 90%;
+  }
+
+  .container-text h2{
+    font-size: 1.6rem;
   }
 }

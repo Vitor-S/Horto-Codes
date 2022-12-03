@@ -1,7 +1,7 @@
 <?php
 
     $hostname = "4.228.214.159";
-    $banco = 'SITE_ROBOCODE2';
+    $banco = 'SITE_ROBOCODE3';
     $user = "hordes";
     $password = "&3DI4oME6MB#U";
 
