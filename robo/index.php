@@ -2,7 +2,7 @@
 include('../scripts/conexao.php');
 include('../scripts/card.php');
 if (isset($_GET['id'])) {
-    $id = $_GET['id'];
+    $id = filter_input(INPUT_GET,'id',FILTER_SANITIZE_NUMBER_INT);
     $robo_query = "SELECT * FROM ROBOCODE WHERE ID_ROBO=:id LIMIT 1";
     $robo_result = $conn->prepare($robo_query);
     $robo_result->bindParam(':id', $id);
